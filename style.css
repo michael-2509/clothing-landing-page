@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-color: hsl(0, 55%, 81%);
+}
+
+img {
+    width: 250px;
+}
+
+h1, h3, p {
+    color: #ffffff;
+}
+
+.one{
+    background-image: url(./images/banner.jpeg);
+    background-size: 100% ;
+    height: 52vw;  
+}
+
+.flex {
+    display: flex;
+    align-items:center;
+    position:relative;
+    top: 55%;
+}
+
+div h1 {
+    margin-left: 4.5rem;
+    font-size: 4rem;
+    font-style: italic;
+
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin: 0 2rem;
+}
+
+.card p {
+   color: black;
+   font-size: 12px;
+   line-height: 1.2rem;
+  
+}
+
+/* section two style */
+.two {
+    margin:4rem 3rem;
+}
+
+.two h3 {
+    font-style: italic;
+    margin-right: 6rem;
+    line-height: 2rem;
+}
+
+.two h3 span {
+    font-size: 3rem;
+}
+
+.two p {
+    font-size: 11px;
+    text-align: justify;
+    margin-right: 18rem;
+}
+
+/* gallery style */
+
+.gallery .flex_one {
+    display: flex;  
+}
+
+.gallery .flex_two {
+    display: flex;
+}
+.gallery img {
+    width: 250px;
+}
+
+.gallery .flex_two img {
+    height:360px;
+}
+
+/* section four style */
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;  
+}
+
+.four h1 {
+    display: block;
+    margin:0;
+}
+
+.four p {
+    margin-top: 1rem ;
+    margin-bottom: 2rem;
+ 
+}
+
+.four input {
+    padding: .7rem  1rem;
+    width: 35%;
+    border-radius: 25px;
+    border: 0 ;
+    font-size: 11px;
+}
+
+.four .black{
+    background-color: black;
+    width: 23%;
+   
+    font-weight: bold;
+} 
+
+ .four .black::placeholder {
+    color: white;
+}
+
+/* section five style */
+.five {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 3rem 3rem;
+}
+
+/* .five img {
+    margin-left: 2rem;
+} */
+
+.five p {
+    color: black;
+    margin-left: 1.5rem;
+    font-size: 14px;
+   line-height: 1.3rem;
+   text-align: justify;
+}
+
+.five span{
+    color:hsl(0, 55%, 81%) ;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 1rem;
+    display: block;
+}
+
+/* section six style */
+.six {
+    padding: 2rem 1rem;
+}
+
+.six h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.six .image {
+    display: flex;
+    justify-content: center;
+}
+
+.six .image img {
+    width: 150px;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.six p {
+    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+ .fas {
+    color: white;
+    margin-left: 5rem;
+    display: flex;
+
+}
+
+/* section sevn styling */
+.seven {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.seven img {
+    width: 150px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+.seven h3, p {
+    color: black;
+    margin: 1rem;
+}
+
+.seven .money {
+    font-weight: 700;
+}
+
+.seven button {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: .6rem .3rem;
+    width: 40%;
+}
+
+/* final style */
+
+.final {
+ background-color: rgb(255, 249, 249);
+ color: black;
+ padding: 1rem 2rem;
+ display: flex;
+}
+
+.final div h1 {
+    color: black;
+}
+
+.final div img {
+    width:300px;
+    height: 300px;
+    margin-right: 1rem;
+}
+
+.final div {
+    justify-content: center;
+}
+
+.final input {
+    padding: .5rem 1rem;
+    width: 40%;
+    font-size: 10px;
+}
+
+.final button {
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: .5rem 1rem ;
+    width: 20%;
+    border: none;
+}
+
+.final p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.final p i {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
